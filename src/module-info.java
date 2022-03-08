@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author akhiljacobjohn
+ *
+ */
+module core {
+}

@@ -3,9 +3,9 @@ package serialization;
 import java.io.Serializable;
 
 public class Book implements Serializable {
-//adding
+
 	/**
-	 *
+	 * 
 	 */
 	private static final long serialVersionUID = 5563978343130082121L;
 
@@ -54,7 +54,7 @@ public class Book implements Serializable {
 			System.out.println(debook.title);
 			System.out.println(debook.author);
 			System.out.println(debook.price);
-
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
