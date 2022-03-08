@@ -9,7 +9,7 @@ public class SerializableClass implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	private int i;
+	transient private int i;
 	private String msg;
 
 	SerializableClass(int i, String msg) {
