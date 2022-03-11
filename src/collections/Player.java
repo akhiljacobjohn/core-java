@@ -51,14 +51,16 @@ public class Player implements Comparable<Player> {
 //        lst.add(0);
 //        Collections.sort(lst);
         //  System.out.println(lst);
-        Player p1 = new Player("Akhil", 32, 11);
+        Player p1 = new Player("Akhil", 32, 4);
         Player p2 = new Player("Atul", 29, 3);
-        Player p3 = new Player("Dileep", 26, 33);
+        Player p3 = new Player("Dileep", 26, 1);
 
         players.add(p1);
         players.add(p2);
         players.add(p3);
-        Collections.sort(players);
+
+        ComparatorEx ex = new ComparatorEx();
+        Collections.sort(players, ex);
         Iterator<Player> iter = players.iterator();
 
 
