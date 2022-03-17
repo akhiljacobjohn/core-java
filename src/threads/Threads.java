@@ -3,7 +3,7 @@ package threads;
 public class Threads extends Thread{
 
     public void run(){
-        System.out.println("Thread is running");
+        System.out.println("Thread is running now");
     }
 
 
